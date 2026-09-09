@@ -1,0 +1,7 @@
+data/
+*.zip
+dbt_packages/
+target/
+logs/
+__pycache__/
+.ipynb_checkpoints/

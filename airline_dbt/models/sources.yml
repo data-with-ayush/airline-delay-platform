@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: airline_data
+    database: airline-delay-platform
+    schema: airline_data
+    tables:
+      - name: fact_flights
+      - name: fact_fares
+      - name: dim_airport
+      - name: dim_carrier
+      - name: dim_date
